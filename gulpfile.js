@@ -19,7 +19,6 @@ function styles() {
 
         // Enviando para o diretório CSS.
         .pipe(gulp.dest('./dist/css'));
-
 }
 
 function images() {
@@ -32,7 +31,6 @@ function images() {
 
         // Enviando para o diretório imagens.
         .pipe(gulp.dest('./dist/images'));
-
 }
 
 // Chamando as funcões.
