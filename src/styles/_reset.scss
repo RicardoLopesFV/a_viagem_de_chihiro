@@ -1,0 +1,12 @@
+
+@use 'var';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: var.$fontFamily;
+    text-decoration: none;
+    color: var.$fontColor;
+}

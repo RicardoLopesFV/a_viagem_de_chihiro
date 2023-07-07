@@ -1,0 +1,14 @@
+
+@use 'var';
+@use 'reset';
+@use 'header';
+@use 'hero';
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: var.$backgroundGradient;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
